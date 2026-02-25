@@ -8,6 +8,13 @@ title: "Welcome to RLAC!"
 
 {% include page__hero.html %}
 
+<script>
+  // Redirect root to assignments index so the site title goes to the assignments page.
+  if (window && window.location && window.location.pathname === '/') {
+    window.location.replace('/assignments/');
+  }
+</script>
+
 <div id="main" role="main">
   <div class="archive">
     <h1>Welcome to my RLAC page!</h1>
