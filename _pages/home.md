@@ -3,13 +3,6 @@ title: "Welcome to RLAC!"
 permalink: /
 layout: single
 ---
-![pfp](/assets/images/pfp.png)
-
-# Mouza Al Mheiri
-
-Mouza Al Mheiri
-
-Hi! Im a freshmen at NYUAD taking a course called Reading Like A Computer
 
 Welcome to my RLAC page!
 
@@ -19,5 +12,6 @@ In RLAC, we explore how computers "read" and interpret text, how algorithms shap
 
 On this site, you'll find:
 
-- **Responses** - My responses and written work for the course.
-- **Assignments** - The assignments page has all my assignments with descriptions underneath as to what the assignment entails.
+• **Responses** - My responses and written work for the course.
+
+• **Assignments** - The assignments page has all my assignments with descriptions underneath as to what the assignment entails.
