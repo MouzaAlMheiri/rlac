@@ -12,12 +12,6 @@ Description: Assignment 1 placeholder. Add details or link to the assignment pag
 
 ---
 
-## Assignment 2
-
-Description: Assignment 2 placeholder. Add details or link to the assignment page here.
-
----
-
 ## Assignment 3
 
 Description: Assignment 3 placeholder. Add details or link to the assignment page here.
