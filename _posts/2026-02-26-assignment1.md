@@ -14,11 +14,11 @@ SECTION 1 Corpus and Research Questions
 
 If there is one thing the Harry Potter universe does extremely well, it is emotion. Fear, loyalty, grief, anger; everything in this world feels just slightly heightened. Because of that, we started with a simple curiosity: does the language actually reflect that emotional intensity, and does fanfiction push it even further?
 
-To explore this, we assembled a corpus of five texts from both the official Harry Potter series and popular fanfiction communities. The corpus contains 441,225 words and 18,063 unique word forms, giving us ample material for analysis. The longest texts are Harry Potter and the Half-Blood Prince (171,668 words) and the fanfiction Wishmaster Harry Potter (107,373 words), while the shortest are Reconstructing HP (23,880 words) and HP Next Gen (33,391 words). This range allowed us to compare emotional language across long canonical novels and shorter, more experimental fan works.
+To explore this, we assembled a corpus of five texts from both the official Harry Potter series and popular fanfiction communities. The corpus contains 441,225 words and 18,063 unique word forms, giving us ample material for analysis. The longest texts are Harry Potter and the Half-Blood Prince (171,668 words) and the fanfiction Wishmaster Harry Potter (107,373 words ), while the shortest are Reconstructing HP (23,880 words) and HP Next Gen (33,391 words). This range allowed us to compare emotional language across long canonical novels and shorter, more experimental fan works.
 
 
 We chose this corpus because the Harry Potter series is built on strong emotional stakes, and fanfiction often amplifies those emotions, especially in romance and conflict. This made the dataset an ideal case for examining how emotional language shifts across authors and contexts.
-
+ 
 Our analysis is guided by three main questions:
 What emotions appear most strongly across the texts?
 How do emotional patterns shift throughout each narrative?
