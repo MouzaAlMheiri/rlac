@@ -46,7 +46,8 @@ http and https sites, but if you're embedding this into a local web page (file p
 you should add an explicit protocol (https if you're using voyant-tools.org, otherwise
 it depends on this server.
 Feel free to change the height and width values or other styling below: -->
-<iframe style='width: 100%; height: 800px;' src='https://voyant-tools.org/?view=Trends&corpus=a815ebe65cb4c2b0801510d2473dace2'></iframe>
+<iframe style='width: 487px; height: 423px;' src='https://voyant-tools.org/tool/Trends/?query=anger*&query=anger&query=fear*&query=hope*&query=love*&chartType=bar&corpus=ff0e181ef473466cfee2381af79bb31e'></iframe>
+
 Figure 1. Relative frequencies of four emotion terms across the five texts.
 Right away, some patterns stood out. The fanfiction texts, especially HP Next Gen and Reconstructing HP, show noticeably higher frequencies of love. This was not exactly shocking, but seeing it visualized made the difference much more obvious.
 
