@@ -99,7 +99,10 @@ What this heat map really helped us see is how emotional language organizes itse
 
 To step back and look at stylistic differences more broadly, we created a color coded word cloud in R. Each word is colored according to the text where it appears most frequently.
 
-<img src="/image3.jpg" alt="Color‑coded word cloud" />
+<img src="{{ '/assets/images/image3.jpg' | relative_url }}" alt="Color-coded word cloud">
+
+<img src="/assets/images/image3.jpg" alt="Color-coded word cloud">
+
 
 Figure 4. Color coded word cloud showing dominant vocabulary across five texts.
 
