@@ -121,6 +121,7 @@ However, one of the more interesting surprises was just how steady the emotional
  
 <img src="/assets/images/image1.jpg" alt="Emotion bar chart" />
 
+![Some caption](/assets/images/image1.jpg)
 
 Figure 5. Distinctive words across the five text corpus, showing the terms that appear unusually frequently in each document compared to the rest of the dataset.
 
