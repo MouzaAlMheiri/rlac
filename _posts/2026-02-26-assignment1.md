@@ -11,6 +11,7 @@ tags:
 Emotional Extremes in the Wizarding World: A Computational Study of Canon and Fanfiction
 
 SECTION 1 Corpus and Research Questions
+
 If there is one thing the Harry Potter universe does extremely well, it is emotion. Fear, loyalty, grief, anger; everything in this world feels just slightly heightened. Because of that, we started with a simple curiosity: does the language actually reflect that emotional intensity, and does fanfiction push it even further?
 
 To explore this, we assembled a mixed corpus of five texts drawn from both the official Harry Potter series and popular fanfiction communities. Altogether, the corpus contains 441,225 total words and 18,063 unique word forms, which gave us more than enough material to work with. The longest texts are Harry Potter and the Half Blood Prince (171,668 words) and the fanfiction Wishmaster Harry Potter (107,373 words), while the shortest are Reconstructing HP (23,880 words) and HP Next Gen (33,391 words). This range actually worked in our favor because it let us compare emotional language across long canonical novels and shorter, more experimental fan works.
@@ -26,6 +27,7 @@ How does emotional language cluster around key characters?
 Rather than replacing close reading, our goal was to use computational tools to zoom out and notice patterns that would be almost impossible to track manually.
 
 SECTION 1.5 Background Research and Contextualization
+
 Before jumping into the visualizations, we needed to understand the context behind the texts themselves. The two canonical novels in our dataset, Harry Potter and the Half Blood Prince (2005) and Harry Potter and the Prisoner of Azkaban (1999), were written by J. K. Rowling and published through major commercial presses such as Bloomsbury and Scholastic. These books went through heavy editorial processes and were written for a massive global audience. Because of that, we expected them to show more stylistic control and more balanced emotional pacing.
 
 The three fanfiction texts, Wishmaster Harry Potter, HP Next Gen, and Reconstructing HP, come from a completely different ecosystem. They were published online within participatory fan communities. As the Wikipedia article on fan fiction explains, this space encourages transformative storytelling, emotional experimentation, and far fewer constraints than traditional publishing.
@@ -115,6 +117,7 @@ This visualization is especially helpful because it shows thematic clustering al
 SECTION 3 Findings, Interpretation, and Course Integration
 3.1 Expectations vs Computational Findings
 
+
 Going into this project, we expected the canonical novels to feel more emotionally balanced and the fanfiction texts to push emotional extremes, especially in romance and conflict. That assumption came from what we already know about fanfiction culture.
 
 For the most part, the data backed this up. Next Gen and Reconstructing HP show disproportionately high levels of love, while Wishmaster Harry Potter shows dense clusters of fear, anger, and death related language.
@@ -168,6 +171,7 @@ Collaboration Statement
 This project was completed collaboratively by Mouza and Meera. We divided the work evenly both partners contributed to corpus selection, Voyant analysis, R based visualizations, and the written synthesis. Mouza focused primarily on the R heatmap, the Bubblelines interpretation, and drafting Section 2, while Meera focused on the word cloud, the bar chart analysis, and integrating course readings. We reviewed and edited all sections together to ensure a unified final submission.
 
 Works Cited
+
 Underwood, Ted. Distant Horizons: Digital Evidence and Literary Change. University of Chicago Press, 2019, pp. 143–170.
 
 Glyndark, Glynn. "People Don’t Read, But LLMs Do." Glyndark Blog, 2023, https://blog.glyndarkin.co.uk/ai/people-dont-read-but-ll-ms-do/.
