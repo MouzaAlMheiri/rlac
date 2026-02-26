@@ -46,7 +46,7 @@ http and https sites, but if you're embedding this into a local web page (file p
 you should add an explicit protocol (https if you're using voyant-tools.org, otherwise
 it depends on this server.
 Feel free to change the height and width values or other styling below: -->
-<iframe style='width: 487px; height: 423px;' src='https://voyant-tools.org/tool/Trends/?query=anger*&query=fear*&query=hope*&query=love*&chartType=bar&corpus=ff0e181ef473466cfee2381af79bb31e'></iframe>
+<iframe style='width: 487px; height: 424px;' src='https://voyant-tools.org/tool/Trends/?query=fear*&query=anger*&query=love*&query=hope*&chartType=bar&corpus=e40520433e43902aa62d6a292a0c92b4'></iframe>
 
 Figure 1. Relative frequencies of four emotion terms across the five texts.
 
@@ -66,7 +66,7 @@ http and https sites, but if you're embedding this into a local web page (file p
 you should add an explicit protocol (https if you're using voyant-tools.org, otherwise
 it depends on this server.
 Feel free to change the height and width values or other styling below: -->
-<iframe style='width: 733px; height: 537px;' src='https://voyant-tools.org/tool/Bubblelines/?bins=140&query=love&query=hope*&query=fear&query=fear*&query=anger*&query=death*&query=ron&query=harry&docId=77a994e537fa1549ef98f1518408350f&docId=e5b620d91aa973a5d063bfd6e682c913&docId=eef7c2aed7bfbc541120b68169d35fd4&docId=257be3303058857b50d93346c98d8d6f&docId=c09183f9e4df61886a8df4f1682c15a0&corpus=ff0e181ef473466cfee2381af79bb31e'></iframe>
+<iframe style='width: 733px; height: 518px;' src='https://voyant-tools.org/tool/Bubblelines/?bins=30&query=harry&query=ron&query=hermione&query=fear&query=love&query=hope&query=death&query=anger*&query=love*&query=hope*&query=fear*&query=death*&docId=77a994e537fa1549ef98f1518408350f&docId=e5b620d91aa973a5d063bfd6e682c913&docId=eef7c2aed7bfbc541120b68169d35fd4&docId=257be3303058857b50d93346c98d8d6f&docId=e76bd1088397aa9f0d9c1a4adf43ea11&corpus=e40520433e43902aa62d6a292a0c92b4'></iframe>
 
 Figure 2. Bubblelines visualization showing the distribution of emotional keywords across all five texts.
 
