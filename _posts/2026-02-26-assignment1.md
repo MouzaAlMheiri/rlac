@@ -38,17 +38,18 @@ To explore emotional patterns across the corpus, we combined Voyant Tools with R
 2.1 Word Frequency and Emotional Distribution (Voyant Tools)
 	
 Our first step was to look at the overall emotional vocabulary across the five texts. Using Voyant’s Terms and Trends tools, we tracked four core emotion words: love, hope, fear, and anger.
-Insert Image 1 here (your bar chart of emotions across 5 texts)
-Embedded code:
+
+
 <!--	Exported from Voyant Tools (voyant-tools.org).
 The iframe src attribute below uses a relative protocol to better function with both
 http and https sites, but if you're embedding this into a local web page (file protocol)
 you should add an explicit protocol (https if you're using voyant-tools.org, otherwise
 it depends on this server.
 Feel free to change the height and width values or other styling below: -->
-<iframe style='width: 487px; height: 423px;' src='https://voyant-tools.org/tool/Trends/?query=anger*&query=anger&query=fear*&query=hope*&query=love*&chartType=bar&corpus=ff0e181ef473466cfee2381af79bb31e'></iframe>
+<iframe style='width: 487px; height: 423px;' src='https://voyant-tools.org/tool/Trends/?query=anger*&query=fear*&query=hope*&query=love*&chartType=bar&corpus=ff0e181ef473466cfee2381af79bb31e'></iframe>
 
 Figure 1. Relative frequencies of four emotion terms across the five texts.
+
 Right away, some patterns stood out. The fanfiction texts, especially HP Next Gen and Reconstructing HP, show noticeably higher frequencies of love. This was not exactly shocking, but seeing it visualized made the difference much more obvious.
 
 Meanwhile, the canonical novels look much more emotionally balanced. Instead of one emotion dominating, the distribution stays relatively even.
@@ -58,7 +59,6 @@ Wishmaster Harry Potter was probably the most interesting case. It shows elevate
 2.2 Emotional Trends Across Narrative Segments (Voyant Bubblelines)
 
 Next, we wanted to see how emotions move across the timeline of each story. For this, we used Voyant’s Bubblelines tool, which shows where emotional keywords cluster throughout the narrative.
-Embedded code:
 
 <!--	Exported from Voyant Tools (voyant-tools.org).
 The iframe src attribute below uses a relative protocol to better function with both
@@ -66,7 +66,8 @@ http and https sites, but if you're embedding this into a local web page (file p
 you should add an explicit protocol (https if you're using voyant-tools.org, otherwise
 it depends on this server.
 Feel free to change the height and width values or other styling below: -->
-<iframe style='width: 100%; height: 800px;' src='https://voyant-tools.org/?view=Bubblelines&corpus=a815ebe65cb4c2b0801510d2473dace2'></iframe>
+<iframe style='width: 733px; height: 537px;' src='https://voyant-tools.org/tool/Bubblelines/?bins=140&query=love&query=hope*&query=fear&query=fear*&query=anger*&query=death*&query=ron&query=harry&docId=77a994e537fa1549ef98f1518408350f&docId=e5b620d91aa973a5d063bfd6e682c913&docId=eef7c2aed7bfbc541120b68169d35fd4&docId=257be3303058857b50d93346c98d8d6f&docId=c09183f9e4df61886a8df4f1682c15a0&corpus=ff0e181ef473466cfee2381af79bb31e'></iframe>
+
 Figure 2. Bubblelines visualization showing the distribution of emotional keywords across all five texts.
 
 What became obvious very quickly is that Wishmaster Harry Potter has dense clusters of fear, anger, and death related language. These spikes are not evenly spread; they come in bursts, which creates a much more volatile emotional rhythm.
