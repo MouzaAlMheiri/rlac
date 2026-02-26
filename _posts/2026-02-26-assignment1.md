@@ -14,7 +14,7 @@ SECTION 1 Corpus and Research Questions
 If there is one thing the Harry Potter universe does extremely well, it is emotion. Fear, loyalty, grief, anger; everything in this world feels just slightly heightened. Because of that, we started with a simple curiosity: does the language actually reflect that emotional intensity, and does fanfiction push it even further?
 
 To explore this, we assembled a mixed corpus of five texts drawn from both the official Harry Potter series and popular fanfiction communities. Altogether, the corpus contains 441,225 total words and 18,063 unique word forms, which gave us more than enough material to work with. The longest texts are Harry Potter and the Half Blood Prince (171,668 words) and the fanfiction Wishmaster Harry Potter (107,373 words), while the shortest are Reconstructing HP (23,880 words) and HP Next Gen (33,391 words). This range actually worked in our favor because it let us compare emotional language across long canonical novels and shorter, more experimental fan works.
-Image1.png
+
 
 We chose this corpus very intentionally. The Harry Potter storyline is built on emotional stakes, and fanfiction communities are known for amplifying those stakes even more, especially when it comes to romance and interpersonal conflict. That made this dataset a really good test case for tracking how emotional language shifts across authors and contexts.
 Our analysis is guided by three main questions:
@@ -82,7 +82,8 @@ After exploring broad trends, we used to Cloud R to look more closely at how emo
 
 We included dead/death as one of the tracked terms because death is a central emotional and narrative force in both the Harry Potter series and its fanfiction adaptations. Unlike love, fear, or anger which represent broad emotional states death functions as a plot defining event that often triggers intense emotional reactions in characters and readers. Including this term allowed us to see where moments of loss, threat, or mortality cluster in relation to key characters like Harry, Ron, and Hermione. It also helped highlight how fanfiction sometimes amplifies darker themes texts like Half Blood prince and Wishmaster Harry Potter show noticeably higher concentrations of death related language, reinforcing their more volatile emotional tone. By tracking dead/death alongside the core emotions, the heatmap captures a fuller picture of how both canon and fanfiction use mortality to shape emotional intensity. We noticed that when themes of death were high there was an increase of the emotion of emotion specifically present in the two JK Rowling novels we chose.
 
-Image2.png
+<img src="/assets/images/Image2.png" alt="Character heatmap" />
+
 Figure 3. Heatmap showing the frequency of character and emotion terms across selected texts.
 
 A few things became immediately clear. First, Harry completely dominates the corpus. This is expected narratively, but the scale of his dominance is much more striking when visualized.
@@ -95,8 +96,11 @@ What this heat map really helped us see is how emotional language organizes itse
 2.4 Cross Text Comparison (Color Coded Word Cloud in R)
 
 To step back and look at stylistic differences more broadly, we created a color coded word cloud in R. Each word is colored according to the text where it appears most frequently.
-image3.png
+
+<img src="/assets/images/Image3.png" alt="Color‑coded word cloud" />
+
 Figure 4. Color coded word cloud showing dominant vocabulary across five texts.
+
 Even at a glance, the differences are pretty clear:
 Next Gen leans heavily into family and relationship vocabulary
 Wishmaster foregrounds darker, conflict driven language
@@ -113,7 +117,7 @@ For the most part, the data backed this up. Next Gen and Reconstructing HP show 
 However, one of the more interesting surprises was just how steady the emotional pacing is in the canonical novels. Even during intense moments, Half Blood Prince and Prisoner of Azkaban maintain relatively smooth distributions. That level of consistency likely reflects professional editorial structuring.The Voyant Trends and Bubblelines visualizations both show that the canonical novels maintain much steadier emotional pacing than the fanfiction texts. In Half Blood Prince and Prisoner of Azkaban, the lines for love, fear, anger, and hope remain relatively flat across the narrative, with no dramatic spikes. The Bubblelines view reinforces this pattern, emotional terms appear in smaller, evenly spaced clusters rather than the dense bursts seen in the fanfiction works. This consistency suggests a more controlled emotional structure, likely shaped by professional editing and narrative planning.
 
  
-![Distinctive Words Screenshot](/assets/images/image1.png)
+<img src="/assets/images/Image1.png" alt="Emotion bar chart" />
 
 
 Figure 5. Distinctive words across the five text corpus, showing the terms that appear unusually frequently in each document compared to the rest of the dataset.
