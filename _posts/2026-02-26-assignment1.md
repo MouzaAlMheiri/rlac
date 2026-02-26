@@ -125,11 +125,11 @@ One surprising finding was how steady the emotional pacing is in the canonical n
 
 Figure 5. Distinctive words across the five text corpus, showing the terms that appear unusually frequently in each document compared to the rest of the dataset.
 
-The distinctive word patterns show how fanfiction shifts the emotional center by elevating side characters who barely appear in the original series. While Rowling’s novels foreground figures like Dumbledore, Slughorn, and Buckbeak, the fanfiction texts highlight characters such as Teddy, Victoire, Greg, and Skullhammer. This shift reflects more intimate, character driven storytelling and helps explain the sharper spikes in love, conflict, and interpersonal tension in the fan works.
+Distinctive words reveal that fanfiction shifts the emotional center by elevating side characters who barely appear in the original series. While Rowling foregrounds figures like Dumbledore, Slughorn, and Buckbeak, the fanfiction texts highlight characters such as Teddy, Victoire, Greg, and Skullhammer. This shift creates more intimate, character‑driven storytelling and helps explain the sharper spikes in love, conflict, and interpersonal tension.
 
 3.2 What Computational Analysis Reveals That Close Reading Cannot
 
-Reading all five texts closely would have been unrealistic, and even a full close reading could not measure emotional frequency with this level of precision. Computational analysis allowed us to locate emotional spikes, track which characters cluster with which emotions, compare canon and fanfiction at scale, and detect cross‑text emotional signatures. These patterns only emerge when treating the texts as data; distant reading expands our lens rather than replacing interpretation.
+Reading all five texts closely would have been unrealistic, even a full close reading could not measure emotional frequency with this precision. Computational analysis let us locate emotional spikes, track which characters cluster with which emotions, compare canon and fanfiction at scale, and detect cross‑text emotional signatures. These patterns only appear when treating the texts as data; distant reading expands our lens rather than replacing interpretation.
 
 3.3 Voyant vs R Complementary Strengths
 
@@ -137,27 +137,23 @@ Using both Voyant and R highlighted their complementary strengths. Voyant is ide
 
 3.4 Methodological Reflection The Risks of Distant Reading
 
-Ted Underwood’s chapter, The Risks of Distant Reading, was important for grounding our approach. Underwood warns that quantitative analysis can create what he calls an "illusory aura of objectivity," which can make scholars forget that literature is still an interpretive and emotional experience.
-We kept that warning in mind throughout this project. Our goal was never to treat word frequency as the final answer. Instead, the visualizations acted more like signals pointing us toward places worth examining more closely.
-
-For example, noticing the fear spikes in Wishmaster pushed us to revisit specific passages to understand how the author builds tension. The numbers showed us where to look, but interpretation still required human reading.
-
-Underwood’s broader point still stands. Distant reading can reveal patterns, but it cannot fully capture why literature feels meaningful. That emotional layer still depends on close reading.
+Ted Underwood’s The Risks of Distant Reading grounded our approach by warning that quantitative analysis can create an “illusory aura of objectivity,” obscuring the interpretive and emotional nature of literature. We kept this in mind by treating word frequency as a signal rather than a conclusion. For example, spikes in fear in Wishmaster led us back to specific passages to understand how tension was built the numbers showed where to look, but interpretation still required human reading. Distant reading reveals patterns, but it cannot explain why literature feels meaningful that layer still depends on close reading.
 
 3.5 Additional Course Connections
 
-Glyndark’s essay, "People Don’t Read, But LLMs Do," helped reinforce why computational methods matter in the first place. The piece argues that machines can process textual scale far beyond human capacity, which directly supports the kind of large corpus work we attempted here.
+Glyndark’s essay, People Don’t Read, But LLMs Do, reinforces the value of computational methods by showing how machines process textual scale far beyond human capacity directly supporting the large corpus work we attempted.
 
-At the same time, our findings also echo Underwood’s caution. Scale is powerful, but only when it stays connected to interpretation. The most productive approach is not choosing between distant and close reading, but letting them work together.
+Our findings also echo Underwood’s caution: scale is powerful only when paired with interpretation. The most effective approach is combining distant and close reading rather than choosing between them.
+
 SECTION 4 Conclusion
 
-Overall, this project shows how computational methods can make emotional patterns visible across large literary datasets in ways that traditional reading alone cannot. By combining Voyant Tools with R visualizations, we were able to identify clear emotional differences between canonical Harry Potter texts and fanfiction, track emotional movement across narratives, and map how emotions cluster around key characters.
+This project shows how computational methods reveal emotional patterns across large literary datasets in ways traditional reading cannot. Using Voyant Tools and R, we identified emotional differences between canon and fanfiction, tracked emotional movement across narratives, and mapped how emotions cluster around key characters.
 
-At the same time, following Underwood’s warning, we recognize that numbers alone cannot explain why these stories resonate emotionally. Distant reading works best as a guide, something that helps us notice patterns we might otherwise miss. In the end, the goal is not to replace close reading, but to deepen it.
+Following Underwood’s warning, we recognize that numbers alone cannot explain why these stories resonate. Distant reading works best as a guide that highlights patterns we might miss, deepening rather than replacing close reading.
 
 Collaboration Statement
 
-This project was completed collaboratively by Mouza and Meera. We divided the work evenly both partners contributed to corpus selection, Voyant analysis, R based visualizations, and the written synthesis. Mouza focused primarily on the R heatmap, the Bubblelines interpretation, and drafting Section 2, while Meera focused on the word cloud, the bar chart analysis, and integrating course readings. We reviewed and edited all sections together to ensure a unified final submission.
+This project was completed collaboratively by Mouza and Meera. We divided the work evenly: both contributed to corpus selection, Voyant analysis, R visualizations, and writing. Mouza focused on the R heatmap, Bubblelines interpretation, and drafting Section 2, while Meera worked on the word cloud, bar chart analysis, and integrating course readings. We reviewed all sections together for a unified final submission.
 
 Works Cited
 
