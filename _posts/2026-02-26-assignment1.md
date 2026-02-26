@@ -84,7 +84,7 @@ After exploring broad trends, we used to Cloud R to look more closely at how emo
 
 We included dead/death as one of the tracked terms because death is a central emotional and narrative force in both the Harry Potter series and its fanfiction adaptations. Unlike love, fear, or anger which represent broad emotional states death functions as a plot defining event that often triggers intense emotional reactions in characters and readers. Including this term allowed us to see where moments of loss, threat, or mortality cluster in relation to key characters like Harry, Ron, and Hermione. It also helped highlight how fanfiction sometimes amplifies darker themes texts like Half Blood prince and Wishmaster Harry Potter show noticeably higher concentrations of death related language, reinforcing their more volatile emotional tone. By tracking dead/death alongside the core emotions, the heatmap captures a fuller picture of how both canon and fanfiction use mortality to shape emotional intensity. We noticed that when themes of death were high there was an increase of the emotion of emotion specifically present in the two JK Rowling novels we chose.
 
-<img src="/assets/images/image2.jpg" alt="Character heatmap" />
+<img src="{{ '/assets/images/image2.jpg' | relative_url }}" alt="Color-coded word cloud">
 
 Figure 3. Heatmap showing the frequency of character and emotion terms across selected texts.
 
@@ -122,9 +122,7 @@ For the most part, the data backed this up. Next Gen and Reconstructing HP show 
 However, one of the more interesting surprises was just how steady the emotional pacing is in the canonical novels. Even during intense moments, Half Blood Prince and Prisoner of Azkaban maintain relatively smooth distributions. That level of consistency likely reflects professional editorial structuring.The Voyant Trends and Bubblelines visualizations both show that the canonical novels maintain much steadier emotional pacing than the fanfiction texts. In Half Blood Prince and Prisoner of Azkaban, the lines for love, fear, anger, and hope remain relatively flat across the narrative, with no dramatic spikes. The Bubblelines view reinforces this pattern, emotional terms appear in smaller, evenly spaced clusters rather than the dense bursts seen in the fanfiction works. This consistency suggests a more controlled emotional structure, likely shaped by professional editing and narrative planning.
 
  
-<img src="/assets/images/image1.jpg" alt="Emotion bar chart" />
-
-![Some caption](/assets/images/image1.jpg)
+<img src="{{ '/assets/images/image1.jpg' | relative_url }}" alt="Color-coded word cloud">
 
 Figure 5. Distinctive words across the five text corpus, showing the terms that appear unusually frequently in each document compared to the rest of the dataset.
 
