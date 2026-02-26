@@ -101,7 +101,7 @@ To step back and look at stylistic differences more broadly, we created a color 
 
 <img src="{{ '/assets/images/image3.jpg' | relative_url }}" alt="Color-coded word cloud">
 
-<img src="/assets/images/image3.jpg" alt="Color-coded word cloud">
+<img src="assets/images/image3.jpg" alt="Color-coded word cloud">
 
 
 Figure 4. Color coded word cloud showing dominant vocabulary across five texts.
