@@ -37,7 +37,7 @@ Other authors blend science fiction with fantasy elements. Marion Zimmer Bradley
 Overall, the corpus shows a wide range of themes, from adventure and survival to psychology, politics, fantasy, and social critique. Even though all texts fall under science fiction, each author brings different interests and approaches, creating a diverse thematic landscape.
 
 Bootstrap Consensus Tree (Stylo)
-
+<img src="{{ '/assets/images/imageA.jpg' | relative_url }}" alt="Color-coded word cloud">
 <!-- <img src="assets/images/imageA.jpg" alt="Color-coded word cloud"> -->
 
 The Bootstrap Consensus Tree helps us understand stylistic similarities between authors. This method groups texts based on writing style rather than content, because it relies on function words such as “the,” “and,” “of,” and “to.” These words are used by all writers, but in different patterns, revealing pacing, sentence structure, and stylistic habits.
