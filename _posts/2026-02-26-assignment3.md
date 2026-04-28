@@ -1,5 +1,5 @@
 ---
-title: "Assignment 3"
+title: "Assignment3"
 categories:
   - Blog
 tags:
