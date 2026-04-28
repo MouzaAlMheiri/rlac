@@ -1,5 +1,5 @@
 ---
-title: "Assignment 3"
+title: "Assignment2"
 last_modified_at: 2016-03-09T16:20:02-05:00
 categories:
   - Blog
@@ -9,6 +9,148 @@ tags:
   - standard
 ---
 
-This post has been updated and should show a modified date if used in a layout.
 
-All children, except one, grow up. They soon know that they will grow up, and the way Wendy knew was this. One day when she was two years old she was playing in a garden, and she plucked another flower and ran with it to her mother. I suppose she must have looked rather delightful, for Mrs. Darling put her hand to her heart and cried, "Oh, why can't you remain like this for ever!" This was all that passed between them on the subject, but henceforth Wendy knew that she must grow up. You always know after you are two. Two is the beginning of the end.
+Background & Expectations 
+What did you know about science fiction / speculative fiction before working with this corpus?
+Before starting this assignment, the two of us already had some experience with science fiction from earlier introductory classes. We had read texts like Frankenstein, which showed us how the genre often mixes real scientific ideas with imaginative possibilities. From those earlier readings, we understood science fiction as a place where writers test the limits of reality asking “what if” and exploring how science, technology, or strange environments might reshape human life. We also knew that speculative fiction often questions the world by imagining alternative futures or new scientific outcomes. But we had never looked at a whole set of sci‑fi texts together or analyzed them with computational tools, so this corpus gave us a new way to see patterns that are harder to notice through close reading alone.
+
+Are all of the texts in this corpus the same length
+The texts in this corpus are not all the same length. When we looked closely at the authors, we noticed that they write in very different forms. Some of the works are short magazine stories, like many of Philip K. Dick’s pieces, which move quickly and use a tight vocabulary. Others are much longer and read more like full adventure novellas. For example, Andre Norton’s Plague Ship and Star Hunter are longer, plot‑driven science‑fiction adventures with more world‑building and slower pacing. These differences in length and structure made us expect that the computational methods might treat the texts differently, because longer works naturally include more variation in vocabulary while shorter ones repeat certain words more often.
+
+
+Do any of the writers write in very different ways?
+Yes, the writers in this corpus have very different writing styles and approaches. For example, Andre Norton writes in a very straightforward and immersive way, focusing on survival, exploration, and science‑fiction adventure. Her works, like Plague Ship and Star Hunter, read like full novellas with steady pacing and strong world‑building. Her style is closest to Leigh Brackett, who also writes fast‑moving adventure stories, although Brackett adds a more atmospheric, noir tone to her planetary settings. On the other hand, some authors blend science fiction with fantasy elements. Marion Zimmer Bradley is a clear example: she writes about psychic abilities, alien social hierarchies, and emotional, character‑driven conflicts, creating a softer, more mystical style. Henry Kuttner also mixes genres, but in a different way—combining science fiction with horror or humor depending on the story. Meanwhile, Philip K. Dick writes in a very direct, idea‑focused style centered on paranoia, unstable realities, and psychological tension. H.G. Wells stands apart with a more formal, descriptive voice, especially in his nonfiction. These differences in tone, pacing, and thematic focus made us expect that the computational methods would separate the authors in distinct ways.
+
+
+Did you close-read any of the texts included in the corpus?
+Yes, we did close‑read one of the texts during a class exercise. We focused on Andre Norton’s writing, which helped us understand her style more closely before looking at the computational results. Reading her work by hand showed us how straightforward and adventure‑driven her storytelling is, especially her focus on survival and world‑building. We also looked at Goodreads reviews about her books, which gave us a sense of how general readers describe her writing. This combination  our own impressions from close reading and the public’s impressions from reviews  helped us build a clearer picture of her style before comparing it to the patterns we later saw in the computational analysis.
+
+What kind of thematic difference exists in the corpus?
+There are many thematic differences across the corpus because each author approaches science fiction in their own way. Some writers focus on science‑fiction adventure, like Andre Norton, who writes about survival, exploration, and the challenges of traveling through unknown worlds. Others, like Leigh Brackett, mix adventure with planetary romance, lost civilizations, and colonial tensions. A few authors blend science fiction with fantasy elements. Marion Zimmer Bradley is the clearest example: she writes about psychic abilities, alien social hierarchies, and emotional, character‑driven conflicts, creating a softer, more mystical tone.
+
+There are also writers who take a more political or philosophical approach. Philip K. Dick focuses on paranoia, unstable realities, and the effects of war and technology on human identity. H.G. Wells brings in futuristic speculation and social commentary, especially in his nonfiction. Henry Kuttner mixes genres by combining science fiction with horror or humor, depending on the story.
+
+Overall, the corpus shows a wide range of themes  from adventure and survival to psychology, politics, fantasy, and social critique. Even though all the texts fall under science fiction, each author branches into their own interests and styles, which creates a diverse thematic landscape.
+
+Methodological Expectations:
+<!-- <img src="assets/images/imageA.jpg" alt="Color-coded word cloud"> -->
+
+Bootstrap Consensus Tree (Stylo)
+The Bootstrap Consensus Tree helps us understand the stylistic similarities between the authors in our corpus. This method groups texts by writing style rather than content, because it uses function words like “the,” “and,” “of,” and “to,” which every writer uses but in different patterns. These small words reveal pacing, sentence structure, and overall stylistic habits. In our tree, Andre Norton’s texts cluster together because her writing is straightforward and adventure‑driven. H.G. Wells separates from the others because his style is more formal, descriptive, and philosophical. Marion Zimmer Bradley stands apart because she blends science fiction with fantasy and emotional tone. Leigh Brackett and Henry Kuttner sometimes cluster closer together because they share similar pulp‑style pacing. We were able to understand these patterns because we researched each author’s style and then connected our findings to what we saw visually in the tree. This method answers the question of how Stylo works: it focuses on how authors write, not what they write about, and it is driven by function words.
+
+<!-- <img src="assets/images/imageB.jpg" alt="Color-coded word cloud"> -->
+ PCA Scatterplot (1000 MFW)
+The PCA scatterplot using 1000 MFW gives us the clearest view of thematic separation in the corpus. With more content words included, the clusters become much stronger and easier to interpret. Norton’s adventure‑focused stories cluster together because they share survival and exploration vocabulary. Wells separates because his texts use political and philosophical language. Marion Zimmer Bradley forms her own cluster because of fantasy‑driven words like “telepathy,” “culture,” and “hierarchy.” Philip K. Dick also forms a distinct group due to vocabulary related to paranoia, war, and technology. This PCA reveals the strongest thematic differences and shows how authors diverge based on what they write about. It completes the picture by focusing on meaning rather than style, and it demonstrates how distinctive content words drive PCA results.
+
+<!-- <img src="assets/images/imageC.jpg" alt="Color-coded word cloud"> -->
+PCA Scatterplot 200 MFW
+
+We looked at several of the professor’s PCA visuals, but the 200 MFW version gave us the clearest structure to analyze as a pair. Even though the plot is crowded and the words overlap, we could still see meaningful clusters forming. For example, words like “eyes,” “turn,” “away,” “came,” “dark,” “face,” and “behind” cluster together, which suggests shared descriptive or action‑based language. Another group includes “before,” “not,” “yet,” “men,” “between,” and “set,” which feels more structural or narrative. In the center, we saw a dense cluster of very common words such as “place,” “most,” “year,” “good,” “want,” “little,” and others, which makes sense because PCA often pulls frequent, neutral words toward the middle. The authors also begin separating: Wells’ Salvaging of Civilization sits far out on the left, showing strong thematic difference; Zimmer Bradley’s Jackie is isolated on the right; and Norton’s texts cluster tightly together, just like Brackett’s. We also noticed a small pair between Kuttner’s The Ego Machine and Dick’s The Defenders, which suggests some shared vocabulary or themes. Even though the visual is messy, it still shows early thematic drift and author separation. This helped us understand how PCA shifts from style to content, what kinds of words drive the method, and why PCA reveals meaning‑based differences that Stylo cannot.
+
+Final Comparison (All Methods Together)
+When we compared the two visuals we included, we could clearly see how each method analyzes the corpus differently. The Bootstrap Consensus Tree focuses on writing style by using function words, so it groups authors based on their pacing, sentence structure, and stylistic habits. The PCA scatterplot works differently because it uses distinctive content words, which separate authors based on themes, topics, and vocabulary. In the 200 MFW PCA, we could already see early thematic drift and authors beginning to move apart from each other. We realized that function words are useful for showing writing style, while distinctive content words are better for revealing themes, so using both together makes distant reading more balanced. Using both visuals helped us see both stylistic and thematic diversity across the texts.
+
+
+
+
+How can you compare the different methods Stylo for hierarchical cluster and TF-IDF PCA clustering for what they purport to analyze?
+We compared Stylo and PCA by looking at what each method focuses on. Stylo groups authors by writing style, because it uses function words that reflect habits like pacing, sentence structure, and rhythm. PCA works differently because it uses distinctive content words, which separate authors based on themes and vocabulary. This matches Underwood’s point that distant reading depends on “new ideas about modeling and interpretation” rather than just counting words (Underwood, Preface, p. xii). In our visuals, Stylo showed stylistic similarity, while the 200 MFW PCA showed early thematic drift. Together, they let us see both how authors write and what they write about.
+
+
+What do you think about the idea of function words or most distinctive words being the basis for distant reading?
+
+We think both types of words are useful, but for different reasons. Function words are good for showing style, because they reflect unconscious writing habits. Distinctive content words are better for showing themes, because they reveal topics and meaning. Underwood explains that distant reading works by modeling relationships rather than isolated facts, since “numbers enter the picture as a way to establish comparative relationships between different parts of the historical record.” Using both kinds of words makes distant reading more balanced, because it captures both stylistic and thematic patterns across the corpus.
+
+
+What kinds of words are likely driving each method’s results?
+
+Stylo is driven by function words like the, and, of, to, because these words reflect stylistic habits and are not tied to specific themes. PCA is driven by distinctive content words, which in our 200 MFW plot included clusters like “eyes,” “turn,” “away,” “dark,” “face,” “behind” and another cluster with “before,” “not,” “yet,” “men,” “between.” These words push authors apart based on meaning. This aligns with Underwood’s idea that distant reading reveals large‑scale patterns, since he says “details will start to organize themselves into larger patterns shared by many other books.” So Stylo shows the stylistic habits, while PCA shows the thematic vocabulary that separates authors.
+
+
+Computational Insights:
+
+What did the computational analysis of the corpus teach you about science fiction / speculative fiction that you did not already know?
+
+The computational analysis showed us that science fiction authors cluster together not only by theme but also by shared vocabulary patterns we didn’t expect. We saw that authors like Norton, Brackett, and Dick use overlapping descriptive words, which creates tight clusters in PCA. This helped us see that speculative fiction has more internal consistency than we assumed. Underwood explains that distant reading reveals “patterns shared by many other books” when we zoom out (Underwood, p. xix), and our results confirmed that science fiction shares a strong thematic core across different writers.
+
+
+How does the wordlist generated by Stylo compare to the loadings that you can visualize in the TF-IDF PCA visualization?
+
+Stylo’s wordlist is dominated by function words (the, and, to, of), because it measures writing style. PCA loadings, on the other hand, highlight distinctive content words, like the clusters we saw: “eyes,” “turn,” “away,” “dark,” “face,” “behind” and “before,” “not,” “yet,” “men,” “between.” Stylo shows stylistic habits; PCA shows thematic vocabulary. This matches Underwood’s point that quantitative methods help us “establish comparative relationships” (Underwood, p. xii) between different kinds of evidence.
+
+Would you expect the loadings to be the same across different numbers of MFWs?
+
+No, we wouldn’t expect them to stay the same. When the number of MFWs changes, the distinctive words change too, which shifts the PCA loadings. With fewer MFWs (like 200), we saw early thematic drift; with more MFWs, the separation becomes stronger and more stable. Underwood notes that models depend on the evidence they’re trained on, because they “learn concepts entirely from illustrative examples” (Underwood, p. xv). Changing the MFW count changes the examples.
+
+Were there words specific to the loadings or the wordlist from stylo?
+
+Yes. Stylo had only function words, because it measures style. PCA loadings included content words that Stylo never uses. In our 200 MFW PCA, we saw clusters like “eyes,” “dark,” “face,” “behind,” “before,” “yet,” “between.” These words drove the thematic separation. Stylo and PCA rely on completely different types of words, which is why they reveal different patterns.
+
+
+Was the gender of the writers linked to any stable kind of clustering? What about theme of the book?
+
+Gender did not create stable clusters in either method. Writers of different genders were mixed together in both Stylo and PCA. This matches Underwood’s finding that gender signals in fiction are “extremely volatile” over time (Underwood, p. xvii). Themes, however, did create stable clusters. In PCA, authors writing similar types of science fiction (like Norton and Brackett) clustered tightly together, while Wells and Zimmer Bradley separated because their themes differ more strongly.
+
+Identify one case where the two methods disagree, even if slightly. What might explains this difference?
+
+One disagreement we saw was with Zimmer Bradley’s Jackie. In Stylo, she clusters closer to other writers because her function‑word style is similar. But in PCA, she sits far to the right, separated from the group. This difference happens because Stylo measures how she writes, while PCA measures what she writes about. Her themes and vocabulary are more distinct than her stylistic habits, which explains why PCA isolates her more strongly.
+
+Comparative Insights:
+
+How do the clusters that you get in hierarchical analysis compare to the proximity of the points you get in the TF-IDF PCA visualization?
+
+In the hierarchical Stylo tree, authors are grouped into clear branches based on stylistic similarity. In the PCA visualization, authors appear as points that drift apart based on thematic vocabulary. Some clusters match across both methods for example, Norton’s texts stay close together in both visuals. But PCA shows more spreading and more thematic separation, while Stylo keeps authors tighter because it focuses on style.
+
+What is similar about them? What is different?
+
+The similarity is that both methods reveal patterns of similarity across the corpus. Norton clusters in both, and Brackett’s texts also stay close in both methods.
+The difference is the reason for the clustering:Stylo groups authors by function‑word style,PCA groups authors by content‑word themes.This is why Zimmer Bradley clusters with others in Stylo but stands alone in PCA her style is similar, but her themes differ.
+
+Typically one would say that Stylo is good for detecting authorship and similarity in style of writing and TF-IDF is good for detecting content similarity? Did you find this to be true?
+
+Yes, this was completely true in our results. Stylo grouped authors with similar writing habits, even when their themes were different. PCA separated authors based on the actual vocabulary they used. This matches Underwood’s explanation that distant reading reveals “patterns shared by many other books” when we compare vocabulary at scale (Underwood, p. xix). Our PCA plot showed thematic drift, while Stylo showed stylistic consistency.
+
+If any of the texts were co-authored, did this make a difference for the clustering?
+
+In our corpus, we didn’t have clear co‑authored texts, but we did see something similar: texts by the same author or writing pair (like Norton’s works) clustered tightly in both methods. This suggests that if a text were co‑authored, Stylo would likely pull it toward the shared stylistic habits of the authors, while PCA might place it between them depending on the themes and vocabulary used.
+
+Trends & Surprises:
+
+Were there any surprises that you found when working with both methods?
+
+Yes the biggest surprise was how differently the same texts behaved depending on the method. In Stylo, many authors clustered closely because their function‑word style was similar. But in PCA, the same authors suddenly spread apart because their content words were different. We didn’t expect Zimmer Bradley to be so isolated in PCA while blending in stylistically in Stylo. It showed us how much theme can pull texts apart even when their writing habits look similar.
+
+
+Did your analysis want to make you want to read any of these novels more deeply?
+
+Yes seeing how certain authors drifted away from the group in PCA made us curious about their themes. Wells’ Salvaging of Civilization stood out the most, and the PCA separation made us want to understand what vocabulary and ideas made it so different. The clustering made the texts feel less abstract and more like real books with distinct voices.
+
+
+If you took on the bonus part of the assignment to generate examples in the style of “Author X” what happened to the clustering?
+
+We didn’t generate new texts for the bonus, but based on our results, we expect that an LLM‑generated sample would cluster closer in Stylo than in PCA. Stylo focuses on function‑word habits, which LLMs imitate very well. PCA focuses on distinctive content words, which LLMs sometimes generalize or flatten, so the generated text might not land exactly where the real author sits.
+
+What did the LLM understand by style?
+
+The LLM mainly understood surface‑level stylistic habits things like sentence rhythm, pacing, and common function‑word patterns. This matches what Underwood says about models learning from examples: they “learn concepts entirely from illustrative examples” (Underwood, p. xv). The LLM can mimic the feel of an author’s writing, but it doesn’t fully capture deeper thematic patterns. That’s why Stylo would likely place an LLM‑generated sample close to the original author, while PCA might not.
+
+Thought Questions:
+1. Are style and content truly separable?
+
+We don’t think style and content are separate at all. Through this assignment, we were able to actually see that in the visualizations. Stylo was supposed to show only style, but the clusters still hinted at content similarities. And PCA was supposed to show content, but the way the authors grouped also reflected stylistic habits. Even Underwood says that when we zoom out, “details… organize themselves into larger patterns shared by many other books.” That line matched exactly what we saw. So for us, style and content are always mixed the way someone writes shapes what they say, and what they say shapes how they write.
+
+2. By understanding science fiction computationally, do you think this will lead to AI‑generated new forms of sci‑fi?
+
+We think yes, because AI will learn the patterns, themes, and stylistic habits that showed up in the clustering. But that’s also the limitation. It will only learn the patterns  and then repeat them. These new forms might exaggerate the patterns or smooth them out too much. They won’t invent new historical contexts or new anxieties the way real sci‑fi did in the 1950s. So AI might create sci‑fi that feels familiar, but not grounded. It loses that creativity that comes from living in a specific moment in history.
+
+3. What did you think about these novels mostly from the 1950s?
+
+We found it interesting how similar the themes were, even before reading the books closely. The PCA plot already showed tension, fear, and uncertainty in the vocabulary. And when we remembered that these books were written right after World War II, it made sense. They felt very direct, very idea‑driven, and very shaped by the time period. The computational part made us appreciate them more because we could see the patterns before even reading the stories.
+
+4. How do you think they spoke to a post‑WW2, Cold War American readership?
+We think these novels spoke to a post‑WW2, Cold War American readership in two different ways at the same time. On one hand, they fed directly into the fears of the moment  invasion, nuclear threat, rapid technology, and the feeling that the world could collapse again. Even the PCA vocabulary we saw, like dark, behind, men, between, felt like Cold War language. But on the other hand, these books also gave readers a kind of escape. Sci‑fi let people imagine the “what if” scenarios in a safer, more distant way. Instead of talking openly about the panic of the Cold War, they could explore it through aliens, planets, machines, and future worlds. Underwood explains that fiction often moves “farther away from the language, themes, and narrative strategies of nonfiction,” and that really fits here because sci‑fi becomes a fantasy space where the fear is still there, but transformed into something you can think about without facing it directly. So the novels weren’t just reflecting the world after the war they were also helping readers process it, escape it, and reimagine it.
+
+
+5. What kinds of new literacies are required when we work with code to “read like a computer”?
+
+We realized that working with code requires a whole new kind of literacy. We have to understand how data gets cleaned, how words get counted, and how models learn from examples. It’s not just reading anymore it’s interpreting patterns, clusters, and distances. Underwood says that numbers help us “establish comparative relationships,” and that’s exactly what we had to learn: how to read patterns instead of sentences. Reading like a computer means understanding the choices behind the model, not just the output. It’s a different kind of reading, and it forces us to think about literature in a more structural, less emotional way, which is new for us.
