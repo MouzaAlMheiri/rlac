@@ -38,7 +38,7 @@ Overall, the corpus shows a wide range of themes, from adventure and survival to
 
 Bootstrap Consensus Tree (Stylo)
 <img src="{{ '/assets/images/imageA.jpg' | relative_url }}" alt="Color-coded word cloud">
-<!-- <img src="assets/images/imageA.jpg" alt="Color-coded word cloud"> -->
+
 
 The Bootstrap Consensus Tree helps us understand stylistic similarities between authors. This method groups texts based on writing style rather than content, because it relies on function words such as “the,” “and,” “of,” and “to.” These words are used by all writers, but in different patterns, revealing pacing, sentence structure, and stylistic habits.
 In our tree, Andre Norton’s texts cluster together because her writing is consistent and adventure-driven. H.G. Wells separates from the others due to his more formal and descriptive style. Marion Zimmer Bradley also stands apart because of her blend of science fiction and fantasy with an emotional tone. Leigh Brackett and Henry Kuttner sometimes cluster closer together, likely because they share similar pulp-style pacing.
@@ -46,7 +46,7 @@ We understood these patterns by researching each author’s style and connecting
 
 PCA Scatterplot (1000 MFW)
 
-<!-- <img src="assets/images/imageB.jpg" alt="Color-coded word cloud"> -->
+<img src="{{ '/assets/images/imageB.jpg' | relative_url }}" alt="Color-coded word cloud">
 
 The PCA scatterplot using 1000 most frequent words gives the clearest view of thematic separation. Because it includes more content words, the clusters become stronger and easier to interpret.
 Norton’s adventure-focused stories cluster together due to shared vocabulary related to survival and exploration. Wells separates because his texts use more political and philosophical language. Marion Zimmer Bradley forms her own cluster due to fantasy-driven vocabulary such as “telepathy,” “culture,” and “hierarchy.” Philip K. Dick also forms a distinct group due to vocabulary related to paranoia, war, and technology.
@@ -54,7 +54,7 @@ This PCA highlights thematic differences and shows how authors diverge based on 
 
 PCA Scatterplot (200 MFW) and Early Thematic Drift
 
-<!-- <img src="assets/images/imageC.jpg" alt="Color-coded word cloud"> -->
+<img src="{{ '/assets/images/imageC.jpg' | relative_url }}" alt="Color-coded word cloud">
 
 The 200 MFW PCA is more crowded, but still reveals meaningful patterns. Words like “eyes,” “turn,” “away,” “came,” “dark,” “face,” and “behind” cluster together, suggesting descriptive or action-based language. Another group includes “before,” “not,” “yet,” “men,” “between,” and “set,” which feels more structural or narrative.
 
